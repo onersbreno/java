@@ -1,0 +1,12 @@
+ublic class Exemplo3{
+    public static void main(String args[]){
+        String cliente = "Humberto";
+
+        Pet pet1= new Pet();//instancia um objeto da classe pet
+        pet1.especie= "Cachorro";
+        pet1.nome = "Yoda";
+        pet1.idade = 5;
+
+        System.out.println("O cliente é " + cliente + " possui um pet chamado " + pet1.nome + " que é " + pet1.especie + " e tem " + pet1.idade + " anos.");
+    }
+}
